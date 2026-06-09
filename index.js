@@ -6,5 +6,5 @@ mongoose.connect(process.env.MONGO_URL);
 
 const Cat = mongoose.model('Cat', { name: String });
 
-const kitty = new Cat({ name: 'Zildjian' });
-kitty.save().then(() => console.log('meow'));
+const gatos = await Cat.find({name: 'Zildjian' }, {__v: 0});
+console.log(gatos);
