@@ -1,0 +1,25 @@
+{
+  "name": "aulas-mongoose-26-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bancos-de-Dados-II/aulas-mongoose-26-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Bancos-de-Dados-II/aulas-mongoose-26-1/issues"
+  },
+  "homepage": "https://github.com/Bancos-de-Dados-II/aulas-mongoose-26-1#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mongoose": "^9.6.3"
+  }
+}
